@@ -1,0 +1,17 @@
+header { color: #000 }
+.new {
+	display: flex;
+	transform: tranlate(-50%, -50%);
+	width: 100px;
+	border-width: 1px;
+ @media (max-width: 768px) {
+		width: 70px;
+	}
+}
+
+
+.class {
+	@media(max-width: 768px) {
+		display: block;
+	}
+}
